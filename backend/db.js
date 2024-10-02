@@ -5,5 +5,5 @@ export const db = mysql.createConnection({
   user:"root",
   // password: process.env.DB_KEY,
   password: "root",
-  database:"blog"
+  database:"blogs"
 })
